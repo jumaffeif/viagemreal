@@ -4,6 +4,7 @@ import { CTAButton } from "@/components/CTAButton";
 import { SectionHeading } from "@/components/SectionHeading";
 
 import heroParis from "@/assets/hero-paris.jpg";
+import heroParisVideo from "@/assets/hero-paris.mp4.asset.json";
 import founderEli from "@/assets/founder-eli.jpg";
 import parisClassic from "@/assets/paris-classic.jpg";
 import maraisMontmartre from "@/assets/marais-montmartre.jpg";
