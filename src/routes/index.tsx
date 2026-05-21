@@ -174,18 +174,6 @@ function Index() {
         </div>
       </section>
 
-      {/* POSICIONAMENTO */}
-      <section className="py-28 md:py-40 px-6">
-        <div className="max-w-3xl mx-auto text-center">
-          <span className="gold-divider mb-8 inline-block" />
-          <p className="font-serif text-2xl md:text-4xl leading-[1.35] text-[color:var(--navy)] font-light">
-            A Viagem Real desenha formas de estar em Paris com{" "}
-            <em className="text-[color:var(--gold)] not-italic font-normal">intenção, fluidez e discrição</em> —
-            cuidando dos detalhes para que cada viajante viva a cidade de forma autêntica, memorável e sem
-            preocupações.
-          </p>
-        </div>
-      </section>
 
       {/* POR QUE */}
       <section className="relative py-28 md:py-36 px-6 bg-cream">
