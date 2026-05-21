@@ -454,7 +454,7 @@ function Index() {
       <footer className="bg-navy border-t border-[color:var(--gold)]/20 px-6 py-16">
         <div className="max-w-6xl mx-auto grid md:grid-cols-3 gap-10 items-center">
           <div className="flex md:justify-start justify-center">
-            <Logo tone="light" />
+            <Logo size={120} className="brightness-110" />
           </div>
           <p className="text-center font-serif italic text-[color:var(--gold-soft)] text-lg">
             Curadoria de experiências na França
