@@ -20,9 +20,9 @@ export function CTAButton({ children, variant = "primary", size = "md", href = W
   };
   const variants = {
     primary:
-      "bg-navy text-cream hover:bg-[color:var(--gold)] hover:text-navy rounded-sm shadow-soft",
+      "bg-navy text-cream hover:bg-[color:var(--gold)] hover:text-navy rounded-2xl shadow-soft",
     outline:
-      "border border-gold text-navy hover:bg-navy hover:text-cream hover:border-navy rounded-sm",
+      "border border-gold text-navy hover:bg-navy hover:text-cream hover:border-navy rounded-2xl",
     ghost: "text-navy hover:text-[color:var(--gold)]",
   };
   return (

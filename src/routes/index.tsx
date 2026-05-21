@@ -197,7 +197,7 @@ function Index() {
               width={1600}
               height={1024}
               loading="lazy"
-              className="w-full h-[520px] object-cover rounded-sm shadow-elegant"
+              className="w-full h-[520px] object-cover rounded-2xl shadow-elegant"
             />
             <div className="absolute -bottom-6 -right-6 w-32 h-32 border border-gold hidden md:block" />
           </div>
@@ -234,7 +234,7 @@ function Index() {
               width={1024}
               height={1024}
               loading="lazy"
-              className="w-full h-[600px] object-cover rounded-sm shadow-elegant"
+              className="w-full h-[600px] object-cover rounded-2xl shadow-elegant"
             />
             <div className="absolute -top-6 -left-6 w-24 h-24 border border-gold hidden md:block" />
           </div>
@@ -291,7 +291,7 @@ function Index() {
             {services.map((s, i) => (
               <article
                 key={s.name}
-                className={`group relative bg-cream rounded-sm p-10 md:p-12 border border-transparent hover:border-gold transition-all duration-700 shadow-soft hover:shadow-elegant ${
+                className={`group relative bg-cream rounded-2xl p-10 md:p-12 border border-transparent hover:border-gold transition-all duration-700 shadow-soft hover:shadow-elegant ${
                   i === services.length - 1 ? "lg:col-span-1" : ""
                 }`}
               >
@@ -326,7 +326,7 @@ function Index() {
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6 md:gap-8">
             {curations.map((c) => (
               <article key={c.title} className="group cursor-pointer">
-                <div className="relative overflow-hidden rounded-sm aspect-[4/5]">
+                <div className="relative overflow-hidden rounded-2xl aspect-[4/5]">
                   <img
                     src={c.image}
                     alt={c.title}
