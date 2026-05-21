@@ -4,6 +4,7 @@ import { CTAButton } from "@/components/CTAButton";
 import { SectionHeading } from "@/components/SectionHeading";
 
 import heroParis from "@/assets/hero-paris.jpg";
+import heroParisVideo from "@/assets/hero-paris.mp4.asset.json";
 import founderEli from "@/assets/founder-eli.jpg";
 import parisClassic from "@/assets/paris-classic.jpg";
 import maraisMontmartre from "@/assets/marais-montmartre.jpg";
@@ -140,11 +141,14 @@ function Index() {
 
       {/* HERO */}
       <section className="relative min-h-[100svh] flex items-center justify-center">
-        <img
-          src={heroParis}
-          alt="Torre Eiffel e telhados de Paris ao entardecer"
-          width={1920}
-          height={1280}
+        <video
+          src={heroParisVideo.url}
+          poster={heroParis}
+          autoPlay
+          muted
+          loop
+          playsInline
+          preload="auto"
           className="absolute inset-0 w-full h-full object-cover"
         />
         <div className="absolute inset-0 bg-gradient-to-b from-[color:var(--navy)]/40 via-[color:var(--navy)]/15 to-[color:var(--navy)]/65" />
