@@ -153,7 +153,7 @@ function Index() {
         />
         <div className="absolute inset-0 bg-gradient-to-b from-[color:var(--navy)]/40 via-[color:var(--navy)]/15 to-[color:var(--navy)]/65" />
         <div className="relative z-10 text-center px-6 max-w-4xl animate-fade-in">
-          <div className="flex justify-center mb-10 animate-fade-up">
+          <div className="flex justify-center mb-2 animate-fade-up">
             <Logo size={180} className="brightness-110 drop-shadow-[0_4px_30px_rgba(0,0,0,0.45)]" />
           </div>
           <p className="eyebrow text-[color:var(--gold-soft)] mb-6 animate-fade-up">Curadoria de experiências · Paris</p>
