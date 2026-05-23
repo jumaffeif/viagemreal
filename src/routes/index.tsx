@@ -104,7 +104,7 @@ const curations = [
 
 const trust = [
   { label: "Experiência local desde 2012" },
-  { label: "Atendimento em português" },
+  { label: "ATENDIMENTO EM PORTUGUÊS E FRANCÊS" },
   { label: "Curadoria sob medida" },
   { label: "Suporte durante a viagem" },
   { label: "Reservas e organização" },
