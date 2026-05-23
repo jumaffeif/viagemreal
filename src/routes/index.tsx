@@ -176,7 +176,7 @@ function Index() {
 
 
       {/* POR QUE */}
-      <section className="relative py-28 md:py-36 px-6 bg-cream mt-[30px]">
+      <section className="relative px-6 bg-cream mt-[30px]">
         <div className="max-w-6xl mx-auto grid md:grid-cols-2 gap-16 md:gap-24 items-center">
           <div className="relative">
             <img
@@ -213,7 +213,7 @@ function Index() {
       </section>
 
       {/* SOBRE ELI */}
-      <section id="sobre" className="py-28 md:py-40 px-6 bg-background mt-[30px]">
+      <section id="sobre" className="px-6 bg-background mt-[30px]">
         <div className="max-w-6xl mx-auto grid md:grid-cols-[1fr_1.2fr] gap-16 md:gap-20 items-center">
           <div className="relative order-2 md:order-1">
             <img
@@ -266,7 +266,7 @@ function Index() {
       </section>
 
       {/* EXPERIÊNCIAS */}
-      <section id="experiencias" className="py-28 md:py-36 px-6 bg-sand mt-[30px]">
+      <section id="experiencias" className="px-6 bg-sand mt-[30px]">
         <div className="max-w-7xl mx-auto">
           <div className="flex justify-center mb-20">
             <SectionHeading
@@ -302,7 +302,7 @@ function Index() {
       </section>
 
       {/* CURADORIA */}
-      <section id="curadoria" className="py-28 md:py-36 px-6 bg-background mt-[30px]">
+      <section id="curadoria" className="px-6 bg-background mt-[30px]">
         <div className="max-w-7xl mx-auto">
           <div className="flex justify-center mb-20">
             <SectionHeading
@@ -343,7 +343,7 @@ function Index() {
       </section>
 
       {/* EMOCIONAL */}
-      <section className="relative py-32 md:py-44 px-6 overflow-hidden mt-[30px]">
+      <section className="relative px-6 overflow-hidden mt-[30px]">
         <img
           src={parisCafe}
           alt="Café parisiense ao sol da manhã"
@@ -370,7 +370,7 @@ function Index() {
       </section>
 
       {/* TRUST */}
-      <section className="py-24 md:py-28 px-6 bg-cream mt-[30px]">
+      <section className="px-6 bg-cream mt-[30px]">
         <div className="max-w-6xl mx-auto">
           <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-px bg-border">
             {trust.map((t) => (
@@ -388,7 +388,7 @@ function Index() {
       </section>
 
       {/* COMO FUNCIONA */}
-      <section className="py-28 md:py-36 px-6 bg-background mt-[30px]">
+      <section className="px-6 bg-background mt-[30px]">
         <div className="max-w-6xl mx-auto">
           <div className="flex justify-center mb-20">
             <SectionHeading eyebrow="Como funciona" title="Três passos para a sua Paris." />
@@ -414,7 +414,7 @@ function Index() {
       </section>
 
       {/* CONTATO */}
-      <section id="contato" className="relative py-32 md:py-44 px-6 bg-navy overflow-hidden mt-[30px]">
+      <section id="contato" className="relative px-6 bg-navy overflow-hidden mt-[30px]">
         <div className="absolute inset-0 opacity-20">
           <img
             src={heroParis}
