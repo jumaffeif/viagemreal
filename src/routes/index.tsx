@@ -257,7 +257,7 @@ function Index() {
               </div>
               <div className="w-px bg-border" />
               <div>
-                <p className="font-serif text-3xl text-[color:var(--gold)]">PT</p>
+                <p className="font-serif text-3xl text-[color:var(--gold)]">PT E FR</p>
                 <p className="text-xs uppercase tracking-[0.25em] text-muted-foreground mt-1">atendimento</p>
               </div>
             </div>
