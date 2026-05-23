@@ -176,7 +176,7 @@ function Index() {
 
 
       {/* POR QUE */}
-      <section className="relative px-6 bg-cream mt-[30px]">
+      <section className="relative px-6 bg-cream mt-[50px]">
         <div className="max-w-6xl mx-auto grid md:grid-cols-2 gap-16 md:gap-24 items-center">
           <div className="relative">
             <img
