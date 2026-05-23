@@ -72,14 +72,18 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
     meta: [
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { title: "Lovable App" },
-      { name: "description", content: "Lovable Generated Project" },
+      { title: "Viagem Real - Experiências em Paris" },
+      { name: "description", content: "Viagem Real crafts bespoke, elegant French experiences, focusing on personalized Paris adventures." },
       { name: "author", content: "Lovable" },
-      { property: "og:title", content: "Lovable App" },
-      { property: "og:description", content: "Lovable Generated Project" },
+      { property: "og:title", content: "Viagem Real - Experiências em Paris" },
+      { property: "og:description", content: "Viagem Real crafts bespoke, elegant French experiences, focusing on personalized Paris adventures." },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary" },
       { name: "twitter:site", content: "@Lovable" },
+      { name: "twitter:title", content: "Viagem Real - Experiências em Paris" },
+      { name: "twitter:description", content: "Viagem Real crafts bespoke, elegant French experiences, focusing on personalized Paris adventures." },
+      { property: "og:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/e75cde19-85f4-46fc-9b74-f3f8204b76e0/id-preview-9dcfd6ae--a6b644f4-da7e-4f91-90ea-e634e53bd0f3.lovable.app-1779568307364.png" },
+      { name: "twitter:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/e75cde19-85f4-46fc-9b74-f3f8204b76e0/id-preview-9dcfd6ae--a6b644f4-da7e-4f91-90ea-e634e53bd0f3.lovable.app-1779568307364.png" },
     ],
     links: [
       {
