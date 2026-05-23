@@ -292,6 +292,9 @@ function Index() {
                 <p className="mt-2 text-[color:var(--gold)] italic font-serif text-lg">{s.tagline}</p>
                 <span className="gold-divider mt-6 mb-6 inline-block" />
                 <p className="text-[color:var(--navy)]/75 font-light leading-relaxed">{s.body}</p>
+                <div className="mt-8">
+                  <CTAButton variant="outline">Saiba mais</CTAButton>
+                </div>
               </article>
             ))}
           </div>
