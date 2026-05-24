@@ -298,9 +298,6 @@ function Index() {
               </article>
             ))}
           </div>
-          <div className="mt-16 text-center">
-            <CTAButton variant="outline">Falar com a Viagem Real</CTAButton>
-          </div>
         </div>
       </section>
 
