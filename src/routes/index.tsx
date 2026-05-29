@@ -343,7 +343,7 @@ function Index() {
       </section>
 
       {/* EMOCIONAL */}
-      <section className="relative px-6 py-24 overflow-hidden mt-[30px]">
+      <section className="relative px-6 py-[30px] overflow-hidden mt-[30px]">
         <img
           src={parisCafe}
           alt="Café parisiense ao sol da manhã"
