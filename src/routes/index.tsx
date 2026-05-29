@@ -244,6 +244,10 @@ function Index() {
               </p>
               <p>
                 Une vivência local, o cuidado brasileiro e uma visão inspirada na arte de viver bem à francesa — onde o tempo de qualidade e as experiências ganham significado.
+                <br />
+                <br />
+                <br />
+                Sua viagem começa antes mesmo de você chegar.
               </p>
             </div>
             <div className="mt-10 flex flex-wrap gap-8 text-sm">
