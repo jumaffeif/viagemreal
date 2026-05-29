@@ -450,7 +450,7 @@ function Index() {
             <Logo size={120} className="brightness-110" />
           </div>
           <p className="text-center font-serif italic text-[color:var(--gold-soft)] text-lg">
-            Curadoria de experiências na França
+            Viagem Real, como toda viagem deve ser!
           </p>
           <div className="flex md:justify-end justify-center gap-8 text-[0.7rem] uppercase tracking-[0.28em] text-[color:var(--champagne)]">
             <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" className="hover:text-[color:var(--gold)] transition-colors">
