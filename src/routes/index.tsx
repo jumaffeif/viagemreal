@@ -58,7 +58,7 @@ const services = [
   },
   {
     name: "Roteiro sob medida",
-    tagline: "Programação personalizada em PDF",
+    tagline: "Sua viagem organizada de forma inteligente",
     body:
       "Percursos otimizados, orientações de deslocamento, restaurantes alinhados ao seu perfil e recomendações de segurança e conforto.",
   },
