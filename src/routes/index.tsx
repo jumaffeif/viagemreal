@@ -195,6 +195,9 @@ function Index() {
               title="Viajar com presença, não com pressa."
               align="left"
             />
+            <p className="mt-8 text-[color:var(--navy)]/80 font-light text-base md:text-lg leading-relaxed">
+              Criamos experiências alinhadas ao seu ritmo, estilo e momento de vida, para que você viva Paris com tranquilidade e aproveite aquilo que realmente importa.
+            </p>
             <ul className="mt-10 space-y-5">
               {whyUs.map((item) => (
                 <li key={item} className="flex items-start gap-4 group">
