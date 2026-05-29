@@ -407,7 +407,7 @@ function Index() {
               </div>
             ))}
           </div>
-          <div className="mt-20 text-center">
+          <div className="mt-10 text-center">
             <CTAButton>Falar com a Viagem Real</CTAButton>
           </div>
         </div>
