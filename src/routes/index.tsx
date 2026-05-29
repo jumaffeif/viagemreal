@@ -266,7 +266,7 @@ function Index() {
       </section>
 
       {/* EXPERIÊNCIAS */}
-      <section id="experiencias" className="px-6 py-20 bg-sand mt-[30px]">
+      <section id="experiencias" className="px-6 py-[30px] bg-sand mt-[30px]">
         <div className="max-w-7xl mx-auto">
           <div className="flex justify-center mb-20">
             <SectionHeading
