@@ -72,7 +72,7 @@ const services = [
 const curations = [
   {
     title: "Paris Classic",
-    description: "Torre Eiffel, Arco do Triunfo, Champs-Élysées e o Rio Sena.",
+    description: "Torre Eiffel e Arco do Triunfo - \nÍcones de Paris em uma experiência clássica, elegante e inesquecível.",
     image: parisClassic,
   },
   {
