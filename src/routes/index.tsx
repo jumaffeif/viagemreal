@@ -429,8 +429,9 @@ function Index() {
         <div className="relative max-w-3xl mx-auto text-center">
           <p className="eyebrow mb-6">Contato</p>
           <h2 className="font-serif text-[color:var(--cream)] text-4xl md:text-6xl leading-[1.05]">
-            Sua experiência em Paris pode ser{" "}
-            <em className="text-[color:var(--gold-soft)] not-italic">leve, segura e inesquecível.</em>
+            Sua experiência em Paris
+            <br />
+            <em className="text-[color:var(--gold-soft)] not-italic">começa antes do embarque!</em>
           </h2>
           <p className="mt-8 text-[color:var(--champagne)] font-light text-lg leading-relaxed max-w-xl mx-auto">
             Conte para a Eli como você imagina os seus dias em Paris. Respondemos pessoalmente, com atenção a
