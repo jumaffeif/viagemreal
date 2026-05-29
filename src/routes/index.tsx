@@ -302,7 +302,7 @@ function Index() {
       </section>
 
       {/* CURADORIA */}
-      <section id="curadoria" className="px-6 py-20 bg-background mt-[30px]">
+      <section id="curadoria" className="px-6 py-[30px] bg-background mt-[30px]">
         <div className="max-w-7xl mx-auto">
           <div className="flex justify-center mb-20">
             <SectionHeading
