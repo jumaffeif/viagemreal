@@ -54,7 +54,7 @@ const services = [
     name: "Assessoria",
     tagline: "Planejamento completo da sua viagem",
     body:
-      "Para quem quer chegar com tudo desenhado. Dossiê de viagem em PDF, reuniões online, roteiro sob medida e suporte durante toda a estadia.",
+      "Para quem quer chegar com tudo estruturado e organizado antes da viagem. Inclui: roteiro sob medida, reuniões online de planejamento, curadoria e organização de reservas (atrações, TGV, hotéis e restaurantes), orientação prática sobre o metrô de Paris e suporte durante toda a sua experiência em Paris.",
   },
   {
     name: "Roteiro sob medida",
