@@ -97,7 +97,7 @@ const curations = [
   },
   {
     title: "Fé e Vinho",
-    description: "Saint-Germain-des-Prés, Sacré Cœur, mercados gastronômicos e cultura.",
+    description: "Uma experiência entre fé, tradição e os sabores autênticos da cultura francesa.",
     image: feVinho,
   },
 ];
