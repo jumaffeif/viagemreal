@@ -114,7 +114,7 @@ const trust = [
 const whyUs = [
   "Curadoria personalizada",
   "Orientação local em português",
-  "Conforto nos deslocamentos",
+  "Conforto e segurança nos deslocamentos",
   "Segurança para quem não domina o idioma",
   "Reservas e experiências organizadas com antecedência",
   "Roteiros conforme o perfil do viajante",
