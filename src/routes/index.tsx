@@ -40,7 +40,7 @@ export const Route = createFileRoute("/")({
 const services = [
   {
     name: "Guia Signature",
-    tagline: "Paris conduzida com precisão",
+    tagline: "Paris conduzida com precisão e leveza",
     body:
       "Para quem deseja viver Paris com tudo previamente planejado. Roteiro sob medida, reservas, concierge, acompanhamento presencial de até 6h por dia e assistência contínua.",
   },
