@@ -307,7 +307,7 @@ function Index() {
         <div className="max-w-7xl mx-auto">
           <div className="flex justify-center mb-20">
             <SectionHeading
-              eyebrow="Curadoria de passeios"
+              eyebrow="PARIS COM SIGNIFICADO"
               title="Caminhos pela cidade — adaptáveis ao seu estilo."
               subtitle="Estes são exemplos de percursos. Cada experiência é remodelada conforme o seu ritmo, o seu interesse e o tempo disponível."
             />
