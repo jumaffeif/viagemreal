@@ -273,7 +273,7 @@ function Index() {
             <SectionHeading
               eyebrow="EXPERIÊNCIAS VIAGEM REAL"
               title="Escolha como deseja viver Paris"
-              subtitle="Cada formato foi pensado para um momento da sua viagem — da curadoria estratégica antes da chegada ao acompanhamento presencial em Paris."
+              subtitle="Cada experiencia foi criada para atender diferentes momentos da viagem, da curadoria estratégica antes da chegada ao acompanhamento presencial em Paris, sempre com o mesmo propósito."
             />
           </div>
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6 md:gap-8">
