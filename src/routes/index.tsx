@@ -414,7 +414,7 @@ function Index() {
       </section>
 
       {/* CONTATO */}
-      <section id="contato" className="relative px-6 py-24 bg-navy overflow-hidden mt-[30px]">
+      <section id="contato" className="relative px-6 py-[30px] bg-navy overflow-hidden mt-[30px]">
         <div className="absolute inset-0 opacity-20">
           <img
             src={heroParis}
