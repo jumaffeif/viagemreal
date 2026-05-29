@@ -391,7 +391,7 @@ function Index() {
       <section className="px-6 py-[30px] bg-background mt-[30px]">
         <div className="max-w-6xl mx-auto">
           <div className="flex justify-center mb-20">
-            <SectionHeading eyebrow="Como funciona" title="Três passos para a sua Paris." />
+            <SectionHeading eyebrow="Como funciona" title="Três passos para a sua experiência em Paris." />
           </div>
           <div className="grid md:grid-cols-3 gap-12 md:gap-8 relative">
             {[
