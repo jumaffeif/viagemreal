@@ -48,7 +48,7 @@ const services = [
     name: "Personal Guia + Consultoria",
     tagline: "Autonomia com segurança em Paris",
     body:
-      "Aprenda a se orientar em Paris com confiança: transporte público, máquinas de autoatendimento, caixas eletrônicos, banheiros públicos e as dinâmicas essenciais.",
+      "Para quem deseja se sentir confiante na cidade, mesmo viajando sozinha ou pela primeira vez. Você aprende a se orientar na cidade luz com segurança: transporte público, máquinas de autoatendimento, caixas eletrônicos, banheiros públicos e dinâmicas essenciais do dia a dia.",
   },
   {
     name: "Assessoria",
