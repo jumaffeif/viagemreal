@@ -361,8 +361,7 @@ function Index() {
             <em className="text-[color:var(--gold-soft)] not-italic">não precisar pensar em nada.</em>
           </h2>
           <p className="mt-8 text-[color:var(--champagne)] text-lg font-light leading-relaxed max-w-2xl mx-auto">
-            Cada detalhe pode ser organizado antes da viagem — para que você aproveite a cidade com presença,
-            leveza e tranquilidade. Sem mapas. Sem dúvidas. Apenas Paris.
+            Tudo pode ser organizado antes da sua chegada — para que você aproveite a cidade sem pressa, sem medo, sem dúvidas e sem desperdício de tempo. Apenas vivendo Paris.
           </p>
           <div className="mt-12">
             <CTAButton>Quero viver Paris com segurança</CTAButton>
