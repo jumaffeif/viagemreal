@@ -395,7 +395,7 @@ function Index() {
           </div>
           <div className="grid md:grid-cols-3 gap-12 md:gap-8 relative">
             {[
-              { n: "01", t: "Conversa", d: "Você entra em contato pelo WhatsApp e iniciamos um diálogo discreto sobre a sua viagem." },
+              { n: "01", t: "Conversa", d: "Você entra em contato pelo WhatsApp e iniciamos uma conversa sobre a sua viagem." },
               { n: "02", t: "Escuta", d: "Compreendemos o seu perfil, suas datas e os desejos que tornam essa viagem única." },
               { n: "03", t: "Desenho", d: "Desenhamos a experiência ideal — guiamento, roteiro, assessoria ou serviços complementares." },
             ].map((s) => (
