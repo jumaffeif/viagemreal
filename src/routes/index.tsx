@@ -42,7 +42,7 @@ const services = [
     name: "Guia Signature",
     tagline: "Paris conduzida com precisão e leveza",
     body:
-      "Para quem deseja viver Paris com tudo previamente planejado. Roteiro sob medida, reservas, concierge, acompanhamento presencial de até 6h por dia e assistência contínua.",
+      "Para quem deseja viver Paris com tudo previamente organizado, sem preocupação durante a viagem. Roteiro sob medida, reservas estratégicas, curadoria de experiências, acompanhamento presencial de até 8h por dia e suporte contínuo.",
   },
   {
     name: "Personal Guia + Consultoria",
