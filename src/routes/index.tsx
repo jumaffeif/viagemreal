@@ -82,7 +82,7 @@ const curations = [
   },
   {
     title: "Lutécia & Paris",
-    description: "Île de la Cité e o histórico Bairro Latino.",
+    description: "O coração histórico de Paris em uma vivência entre cultura, alma e autenticidade.",
     image: lutecia,
   },
   {
