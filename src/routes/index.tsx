@@ -309,7 +309,7 @@ function Index() {
             <SectionHeading
               eyebrow="PARIS COM SIGNIFICADO"
               title="Experiências pensadas - não roteiros engessados."
-              subtitle="Estes são exemplos de percursos. Cada experiência é remodelada conforme o seu ritmo, o seu interesse e o tempo disponível."
+              subtitle="Cada experiência é desenhada ao seu ritmo, aos seus interesses e ao tempo que você deseja viver em Paris — criando uma vivência única, leve e totalmente personalizada na cidade."
             />
           </div>
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6 md:gap-8">
