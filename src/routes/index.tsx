@@ -52,7 +52,7 @@ const services = [
   },
   {
     name: "Assessoria",
-    tagline: "Planejamento estratégico",
+    tagline: "Planejamento completo da sua viagem",
     body:
       "Para quem quer chegar com tudo desenhado. Dossiê de viagem em PDF, reuniões online, roteiro sob medida e suporte durante toda a estadia.",
   },
