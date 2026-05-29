@@ -118,7 +118,7 @@ const whyUs = [
   "Segurança para quem não domina o idioma",
   "Reservas e experiências organizadas com antecedência",
   "Roteiros alinhados ao seu perfil",
-  "Assistência durante a estadia",
+  "Suporte durante a estadia",
 ];
 
 function Index() {
