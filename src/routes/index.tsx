@@ -156,7 +156,7 @@ function Index() {
           <div className="flex justify-center mb-0 animate-fade-up">
             <Logo size={180} className="brightness-110 drop-shadow-[0_4px_30px_rgba(0,0,0,0.45)]" />
           </div>
-          <p className="eyebrow text-[color:var(--gold-soft)] mb-6 animate-fade-up -mt-4">Curadoria de experiências · Paris</p>
+          <p className="eyebrow text-[color:var(--gold-soft)] mb-6 animate-fade-up -mt-4">CURADORIA DE EXPERIÊNCIAS · FRANÇA</p>
           <h1 className="font-serif text-[color:var(--cream)] text-5xl md:text-7xl leading-[1.02] tracking-tight animate-fade-up">
             Paris não se visita.
             <br />
