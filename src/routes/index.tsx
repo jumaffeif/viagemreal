@@ -117,7 +117,7 @@ const whyUs = [
   "Conforto e segurança nos deslocamentos",
   "Segurança para quem não domina o idioma",
   "Reservas e experiências organizadas com antecedência",
-  "Roteiros conforme o perfil do viajante",
+  "Roteiros alinhados ao seu perfil",
   "Assistência durante a estadia",
 ];
 
