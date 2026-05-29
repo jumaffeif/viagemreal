@@ -107,7 +107,7 @@ const trust = [
   { label: "ATENDIMENTO EM PORTUGUÊS, FRANCÊS E ESPANHOL" },
   { label: "Curadoria sob medida" },
   { label: "Suporte durante a viagem" },
-  { label: "Reservas e organização" },
+  { label: "RESERVAS E ORGANIZAÇÃO ANTECIPADA" },
   { label: "Segurança e conforto" },
 ];
 
