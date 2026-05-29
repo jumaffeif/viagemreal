@@ -239,7 +239,7 @@ function Index() {
             <span className="gold-divider mt-7 inline-block" />
             <div className="mt-8 space-y-5 text-[color:var(--navy)]/80 font-light text-base md:text-lg leading-relaxed">
               <p>
-                Sou brasileira e vivo em Paris desde 2012. Com mais de 20 anos de atuação na hotelaria e
+                Sou brasileira e vivo em Paris desde 2012. Com mais de 25 anos de atuação na hotelaria e
                 formação em Turismo e Hotelaria de Luxo pela Université Paris-Est Marne-la-Vallée.
               </p>
               <p>
