@@ -213,7 +213,7 @@ function Index() {
       </section>
 
       {/* SOBRE ELI */}
-      <section id="sobre" className="px-6 py-20 bg-background mt-[30px]">
+      <section id="sobre" className="px-6 py-[30px] bg-background mt-[30px]">
         <div className="max-w-6xl mx-auto grid md:grid-cols-[1fr_1.2fr] gap-16 md:gap-20 items-center">
           <div className="relative order-2 md:order-1">
             <img
