@@ -163,7 +163,7 @@ function Index() {
             <span className="italic text-[color:var(--gold-soft)]">Paris se vive.</span>
           </h1>
           <p className="mt-8 text-[color:var(--champagne)] text-lg md:text-xl font-light max-w-2xl mx-auto leading-relaxed animate-fade-up">
-            Experiências sob medida na França para quem deseja viajar com leveza, segurança e sofisticação.
+            Experiências sob medida na França para quem deseja viajar com leveza, segurança e propósito.
           </p>
           <div className="mt-12 flex flex-col sm:flex-row gap-4 justify-center animate-fade-up">
             <CTAButton size="lg">Quero planejar minha experiência em Paris</CTAButton>
