@@ -370,7 +370,7 @@ function Index() {
       </section>
 
       {/* TRUST */}
-      <section className="px-6 py-16 bg-cream mt-[30px]">
+      <section className="px-6 py-[30px] bg-cream mt-[30px]">
         <div className="max-w-6xl mx-auto">
           <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-px bg-border">
             {trust.map((t) => (
