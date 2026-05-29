@@ -77,7 +77,7 @@ const curations = [
   },
   {
     title: "Marais & Montmartre",
-    description: "Arte, charme boêmio, multiculturalidade e Moulin Rouge.",
+    description: "Uma experiência entre a alma artística de Montmartre e o espírito vibrante do Marais.",
     image: maraisMontmartre,
   },
   {
