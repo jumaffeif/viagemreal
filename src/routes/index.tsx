@@ -123,7 +123,7 @@ const whyUs = [
 
 function Index() {
   return (
-    <main className="bg-background text-foreground overflow-x-hidden [&>section+section]:mt-[30px]">
+    <main className="bg-background text-foreground overflow-x-hidden">
       {/* NAV */}
       <header className="absolute top-0 left-0 right-0 z-30">
         <div className="max-w-7xl mx-auto px-6 md:px-10 py-6 flex items-center justify-between">
