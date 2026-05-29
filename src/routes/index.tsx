@@ -234,7 +234,7 @@ function Index() {
             <h2 className="font-serif text-4xl md:text-5xl text-[color:var(--navy)] leading-tight">
               Eli — vivência local,
               <br />
-              <em className="text-[color:var(--gold)] not-italic">olhar refinado.</em>
+              <em className="text-[color:var(--gold)] not-italic">cuidado brasileiro.</em>
             </h2>
             <span className="gold-divider mt-7 inline-block" />
             <div className="mt-8 space-y-5 text-[color:var(--navy)]/80 font-light text-base md:text-lg leading-relaxed">
