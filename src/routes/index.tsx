@@ -271,7 +271,7 @@ function Index() {
         <div className="max-w-7xl mx-auto">
           <div className="flex justify-center mb-20">
             <SectionHeading
-              eyebrow="Serviços"
+              eyebrow="EXPERIÊNCIAS VIAGEM REAL"
               title="Experiências Viagem Real"
               subtitle="Cada formato foi pensado para um momento da sua viagem — da curadoria estratégica antes da chegada ao acompanhamento presencial em Paris."
             />
