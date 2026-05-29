@@ -87,7 +87,7 @@ const curations = [
   },
   {
     title: "Paris Artistique",
-    description: "Louvre, Ópera Garnier e as grandes coleções.",
+    description: "A essência da arte e da elegância no coração cultural de Paris.",
     image: parisArtistique,
   },
   {
