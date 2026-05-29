@@ -64,7 +64,7 @@ const services = [
   },
   {
     name: "Outras experiências",
-    tagline: "Detalhes que transformam",
+    tagline: "Complementos que elevam sua viagem",
     body: "Transfer, ensaio fotográfico, piquenique personalizado e assistência infantil.",
   },
 ];
