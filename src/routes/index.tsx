@@ -92,7 +92,7 @@ const curations = [
   },
   {
     title: "Paris Shopping",
-    description: "Boutiques, maisons, endereços selecionados e La Vallée Village.",
+    description: "Uma experiência onde Paris é vivida através do estilo, da elegância e do prazer de escolher com calma.",
     image: parisShopping,
   },
   {
