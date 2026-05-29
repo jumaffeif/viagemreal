@@ -397,7 +397,7 @@ function Index() {
             {[
               { n: "01", t: "Conversa", d: "Você entra em contato pelo WhatsApp e iniciamos uma conversa sobre a sua viagem." },
               { n: "02", t: "Escuta", d: "Compreendemos o seu perfil e os desejos que tornam essa viagem única." },
-              { n: "03", t: "Desenho", d: "Desenhamos a experiência ideal — guiamento, roteiro, assessoria ou serviços complementares." },
+              { n: "03", t: "Desenho", d: "Criamos sua experiência ideal — guiamento, roteiro, assessoria ou serviços complementares." },
             ].map((s) => (
               <div key={s.n} className="text-center md:text-left">
                 <p className="font-serif text-[color:var(--gold)] text-5xl md:text-6xl leading-none">{s.n}</p>
