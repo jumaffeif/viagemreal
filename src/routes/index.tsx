@@ -243,9 +243,7 @@ function Index() {
                 formação em Turismo e Hotelaria de Luxo pela Université Paris-Est Marne-la-Vallée.
               </p>
               <p>
-                Une vivência local, sensibilidade refinada e o cuidado brasileiro para transformar a sua viagem
-                em uma experiência fluida, segura e inesquecível — onde cada detalhe foi pensado antes mesmo de
-                você chegar.
+                Une vivência local, o cuidado brasileiro e uma visão inspirada na arte de viver bem à francesa — onde o tempo de qualidade e as experiências ganham significado.
               </p>
             </div>
             <div className="mt-10 flex flex-wrap gap-8 text-sm">
