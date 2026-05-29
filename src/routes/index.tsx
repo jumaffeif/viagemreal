@@ -388,7 +388,7 @@ function Index() {
       </section>
 
       {/* COMO FUNCIONA */}
-      <section className="px-6 py-20 bg-background mt-[30px]">
+      <section className="px-6 py-[30px] bg-background mt-[30px]">
         <div className="max-w-6xl mx-auto">
           <div className="flex justify-center mb-20">
             <SectionHeading eyebrow="Como funciona" title="Três passos para a sua Paris." />
