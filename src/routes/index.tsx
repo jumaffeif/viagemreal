@@ -60,7 +60,7 @@ const services = [
     name: "Roteiro sob medida",
     tagline: "Sua viagem organizada de forma inteligente",
     body:
-      "Percursos otimizados, orientações de deslocamento, restaurantes alinhados ao seu perfil e recomendações de segurança e conforto.",
+      "Roteiro personalizado em PDF (clicável), com percursos otimizados, sugestões alinhadas ao seu estilo de viagem, curadoria de restaurantes, orientações de deslocamento e recomendações para viver Paris com mais leveza e segurança.",
   },
   {
     name: "Outras experiências",
