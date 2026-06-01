@@ -12,7 +12,7 @@ import lutecia from "@/assets/lutecia.jpg";
 import parisArtistique from "@/assets/paris-artistique.jpg";
 import parisShopping from "@/assets/paris-shopping.jpg";
 import feVinho from "@/assets/fe-vinho.jpg";
-import parisDetail from "@/assets/paris-detail.jpg";
+
 import parisCafe from "@/assets/paris-cafe.jpg";
 import slide1 from "@/assets/IMG_8888_1.jpg.asset.json";
 import slide2 from "@/assets/IMG_9475_1.jpg.asset.json";
