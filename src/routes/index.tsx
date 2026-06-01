@@ -12,8 +12,24 @@ import lutecia from "@/assets/lutecia.jpg";
 import parisArtistique from "@/assets/paris-artistique.jpg";
 import parisShopping from "@/assets/paris-shopping.jpg";
 import feVinho from "@/assets/fe-vinho.jpg";
-import parisDetail from "@/assets/paris-detail.jpg";
+
 import parisCafe from "@/assets/paris-cafe.jpg";
+import slide1 from "@/assets/IMG_8888_1.jpg.asset.json";
+import slide2 from "@/assets/IMG_9475_1.jpg.asset.json";
+import slide3 from "@/assets/IMG_0699_1.jpg.asset.json";
+import slide4 from "@/assets/IMG_1438_1.jpg.asset.json";
+import slide5 from "@/assets/IMG_8508_1.jpg.asset.json";
+import slide6 from "@/assets/IMG_1511_1.jpg.asset.json";
+import { PhotoSlideshow } from "@/components/PhotoSlideshow";
+
+const porQueSlides = [
+  { src: slide1.url, alt: "Momento de viagem em Paris" },
+  { src: slide2.url, alt: "Momento de viagem em Paris" },
+  { src: slide3.url, alt: "Momento de viagem em Paris" },
+  { src: slide4.url, alt: "Momento de viagem em Paris" },
+  { src: slide5.url, alt: "Momento de viagem em Paris" },
+  { src: slide6.url, alt: "Momento de viagem em Paris" },
+];
 
 export const Route = createFileRoute("/")({
   head: () => ({
@@ -179,13 +195,10 @@ function Index() {
       <section className="relative px-6 py-[30px] bg-cream mt-[30px]">
         <div className="max-w-6xl mx-auto grid md:grid-cols-2 gap-16 md:gap-24 items-center">
           <div className="relative">
-            <img
-              src={parisDetail}
-              alt="Detalhe de varanda parisiense"
-              width={1600}
-              height={1024}
-              loading="lazy"
-              className="w-full h-[520px] object-cover rounded-2xl shadow-elegant"
+            <PhotoSlideshow
+              images={porQueSlides}
+              intervalMs={4000}
+              className="w-full h-[520px] rounded-2xl shadow-elegant"
             />
             <div className="absolute -bottom-6 -right-6 w-32 h-32 border border-gold hidden md:block" />
           </div>
