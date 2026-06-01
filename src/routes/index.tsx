@@ -14,6 +14,22 @@ import parisShopping from "@/assets/paris-shopping.jpg";
 import feVinho from "@/assets/fe-vinho.jpg";
 import parisDetail from "@/assets/paris-detail.jpg";
 import parisCafe from "@/assets/paris-cafe.jpg";
+import slide1 from "@/assets/IMG_8888_1.jpg.asset.json";
+import slide2 from "@/assets/IMG_9475_1.jpg.asset.json";
+import slide3 from "@/assets/IMG_0699_1.jpg.asset.json";
+import slide4 from "@/assets/IMG_1438_1.jpg.asset.json";
+import slide5 from "@/assets/IMG_8508_1.jpg.asset.json";
+import slide6 from "@/assets/IMG_1511_1.jpg.asset.json";
+import { PhotoSlideshow } from "@/components/PhotoSlideshow";
+
+const porQueSlides = [
+  { src: slide1.url, alt: "Momento de viagem em Paris" },
+  { src: slide2.url, alt: "Momento de viagem em Paris" },
+  { src: slide3.url, alt: "Momento de viagem em Paris" },
+  { src: slide4.url, alt: "Momento de viagem em Paris" },
+  { src: slide5.url, alt: "Momento de viagem em Paris" },
+  { src: slide6.url, alt: "Momento de viagem em Paris" },
+];
 
 export const Route = createFileRoute("/")({
   head: () => ({
