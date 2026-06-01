@@ -4,7 +4,7 @@ import { CTAButton } from "@/components/CTAButton";
 import { SectionHeading } from "@/components/SectionHeading";
 
 import heroParis from "@/assets/hero-paris.jpg";
-import heroParisVideo from "@/assets/hero-paris.mp4.asset.json";
+import heroParisVideo from "@/assets/hero-paris-v2.mp4.asset.json";
 import founderEli from "@/assets/founder-eli.jpg";
 import parisClassic from "@/assets/paris-classic.jpg";
 import maraisMontmartre from "@/assets/marais-montmartre.jpg";
@@ -151,7 +151,7 @@ function Index() {
           preload="auto"
           className="absolute inset-0 w-full h-full object-cover"
         />
-        <div className="absolute inset-0 bg-gradient-to-b from-[color:var(--navy)]/40 via-[color:var(--navy)]/15 to-[color:var(--navy)]/65" />
+        <div className="absolute inset-0 bg-gradient-to-b from-[color:var(--navy)]/70 via-[color:var(--navy)]/45 to-[color:var(--navy)]/85" />
         <div className="relative z-10 text-center px-6 max-w-4xl animate-fade-in -mt-16">
           <div className="flex justify-center mb-0 animate-fade-up">
             <Logo size={180} className="brightness-110 drop-shadow-[0_4px_30px_rgba(0,0,0,0.45)]" />
