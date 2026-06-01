@@ -195,13 +195,10 @@ function Index() {
       <section className="relative px-6 py-[30px] bg-cream mt-[30px]">
         <div className="max-w-6xl mx-auto grid md:grid-cols-2 gap-16 md:gap-24 items-center">
           <div className="relative">
-            <img
-              src={parisDetail}
-              alt="Detalhe de varanda parisiense"
-              width={1600}
-              height={1024}
-              loading="lazy"
-              className="w-full h-[520px] object-cover rounded-2xl shadow-elegant"
+            <PhotoSlideshow
+              images={porQueSlides}
+              intervalMs={4000}
+              className="w-full h-[520px] rounded-2xl shadow-elegant"
             />
             <div className="absolute -bottom-6 -right-6 w-32 h-32 border border-gold hidden md:block" />
           </div>
