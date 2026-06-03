@@ -22,6 +22,20 @@ import slide5 from "@/assets/IMG_8508_1.jpg.asset.json";
 import slide6 from "@/assets/IMG_1511_1.jpg.asset.json";
 import { PhotoSlideshow } from "@/components/PhotoSlideshow";
 
+import guiaOrganizar from "@/assets/guia-organizar.png.asset.json";
+import guiaMetro from "@/assets/guia-metro.png.asset.json";
+import guiaArte from "@/assets/guia-arte.png.asset.json";
+import guiaRoteiro from "@/assets/guia-roteiro.png.asset.json";
+import guiaHospedagem from "@/assets/guia-hospedagem.png.asset.json";
+
+const guias = [
+  { src: guiaOrganizar.url, title: "Como Organizar Minha Viagem a Paris", desc: "Burocracia e cuidados para uma viagem inesquecível e econômica." },
+  { src: guiaMetro.url, title: "Paris em Trilhos", desc: "Domine o transporte público em Paris com segurança." },
+  { src: guiaRoteiro.url, title: "Paris dos Sonhos", desc: "O método para criar o seu roteiro perfeito em Paris." },
+  { src: guiaArte.url, title: "Paris dos Pincéis", desc: "O essencial da arte e dos museus Louvre e Orsay, para iniciantes." },
+  { src: guiaHospedagem.url, title: "Hotéis Econômicos", desc: "Se hospede em Paris com segurança, boa localização e sem gastar uma fortuna." },
+];
+
 const porQueSlides = [
   { src: slide1.url, alt: "Momento de viagem em Paris" },
   { src: slide2.url, alt: "Momento de viagem em Paris" },
@@ -294,6 +308,53 @@ function Index() {
           </p>
         </div>
       </section>
+
+      {/* GUIAS VIAGEM REAL */}
+      <section id="guias" className="px-6 py-24 md:py-32 bg-background relative overflow-hidden">
+        <div className="absolute top-1/3 -left-32 w-96 h-96 rounded-full bg-[color:var(--gold-soft)]/10 blur-3xl pointer-events-none" />
+        <div className="max-w-7xl mx-auto relative">
+          <SectionHeading
+            eyebrow="E-books exclusivos"
+            title="Guias Viagem Real"
+            subtitle="Experiências que começam antes da viagem e continuam em cada escolha em Paris."
+          />
+
+          <p className="max-w-3xl mx-auto mt-10 text-center text-base md:text-lg leading-relaxed font-light text-muted-foreground">
+            Os guias da Viagem Real não são roteiros. São ferramentas de decisão para viver Paris com
+            clareza, autonomia e confiança. Do deslocamento aos museus, da hospedagem às experiências
+            culturais, cada guia revela um jeito mais inteligente e significativo de viver Paris —
+            com organização, propósito e tranquilidade.
+          </p>
+
+          <div className="mt-16 grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6 md:gap-8">
+            {guias.map((g, i) => (
+              <article
+                key={g.title}
+                className="group text-center animate-fade-up"
+                style={{ animationDelay: `${i * 100}ms` }}
+              >
+                <div className="relative aspect-[2/3] overflow-hidden">
+                  <img
+                    src={g.src}
+                    alt={`Capa do guia ${g.title}`}
+                    loading="lazy"
+                    className="w-full h-full object-contain drop-shadow-[0_20px_30px_rgba(11,26,53,0.25)] transition-transform duration-700 ease-out group-hover:-translate-y-2 group-hover:scale-[1.03]"
+                  />
+                </div>
+                <h3 className="mt-5 font-serif text-base md:text-lg text-[color:var(--navy)] leading-snug">
+                  {g.title}
+                </h3>
+                <span className="block w-6 h-px bg-gold mx-auto mt-3 mb-3 transition-all duration-500 group-hover:w-12" />
+                <p className="text-xs md:text-sm text-muted-foreground font-light leading-relaxed">
+                  {g.desc}
+                </p>
+              </article>
+            ))}
+          </div>
+        </div>
+      </section>
+
+
 
 
       {/* SOBRE ELI */}
