@@ -22,6 +22,20 @@ import slide5 from "@/assets/IMG_8508_1.jpg.asset.json";
 import slide6 from "@/assets/IMG_1511_1.jpg.asset.json";
 import { PhotoSlideshow } from "@/components/PhotoSlideshow";
 
+import guiaOrganizar from "@/assets/guia-organizar.png.asset.json";
+import guiaMetro from "@/assets/guia-metro.png.asset.json";
+import guiaArte from "@/assets/guia-arte.png.asset.json";
+import guiaRoteiro from "@/assets/guia-roteiro.png.asset.json";
+import guiaHospedagem from "@/assets/guia-hospedagem.png.asset.json";
+
+const guias = [
+  { src: guiaOrganizar.url, title: "Como Organizar Minha Viagem a Paris", desc: "Burocracia e cuidados para uma viagem inesquecível e econômica." },
+  { src: guiaMetro.url, title: "Paris em Trilhos", desc: "Domine o transporte público em Paris com segurança." },
+  { src: guiaRoteiro.url, title: "Paris dos Sonhos", desc: "O método para criar o seu roteiro perfeito em Paris." },
+  { src: guiaArte.url, title: "Paris dos Pincéis", desc: "O essencial da arte e dos museus Louvre e Orsay, para iniciantes." },
+  { src: guiaHospedagem.url, title: "Hotéis Econômicos", desc: "Se hospede em Paris com segurança, boa localização e sem gastar uma fortuna." },
+];
+
 const porQueSlides = [
   { src: slide1.url, alt: "Momento de viagem em Paris" },
   { src: slide2.url, alt: "Momento de viagem em Paris" },
