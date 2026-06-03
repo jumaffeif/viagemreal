@@ -228,6 +228,76 @@ function Index() {
         </div>
       </section>
 
+      {/* CONCEITO ERA */}
+      <section className="relative px-6 py-[60px] bg-navy overflow-hidden mt-[30px]">
+        <div className="absolute inset-0 opacity-[0.07] pointer-events-none">
+          <div className="absolute -top-20 -left-20 w-[480px] h-[480px] rounded-full bg-[color:var(--gold)] blur-3xl" />
+          <div className="absolute -bottom-32 -right-10 w-[520px] h-[520px] rounded-full bg-[color:var(--gold-soft)] blur-3xl" />
+        </div>
+        <div className="absolute top-10 right-10 font-serif italic text-[color:var(--gold)]/10 text-[14rem] leading-none select-none hidden md:block">
+          ERA
+        </div>
+        <div className="relative max-w-6xl mx-auto">
+          <div className="text-center max-w-3xl mx-auto">
+            <p className="eyebrow text-[color:var(--gold-soft)] mb-5">Nosso Conceito</p>
+            <h2 className="font-serif text-[color:var(--cream)] text-4xl md:text-6xl leading-[1.05]">
+              ERA — <em className="text-[color:var(--gold-soft)] not-italic">Encontro Real de Alma</em>
+            </h2>
+            <span className="gold-divider mt-7 mb-8 inline-block" />
+            <p className="text-[color:var(--champagne)] text-lg font-light leading-relaxed">
+              A essência da Viagem Real nasce do que chamamos de ERA — três pilares que guiam
+              cada experiência que desenhamos para você em Paris.
+            </p>
+          </div>
+
+          <div className="mt-20 grid md:grid-cols-3 gap-6 md:gap-8">
+            {[
+              {
+                letter: "E",
+                title: "Experiência",
+                desc: "Viver Paris de forma real e sensorial.",
+              },
+              {
+                letter: "R",
+                title: "Recordação",
+                desc: "Criar memórias que permanecem depois da viagem.",
+              },
+              {
+                letter: "A",
+                title: "Alma / Afeto",
+                desc: "Construir uma conexão emocional com a cidade.",
+              },
+            ].map((p, i) => (
+              <article
+                key={p.letter}
+                className="group relative bg-[color:var(--navy)]/40 backdrop-blur-sm border border-[color:var(--gold)]/20 rounded-2xl p-10 md:p-12 overflow-hidden transition-all duration-700 hover:border-[color:var(--gold)]/60 hover:-translate-y-2 hover:shadow-elegant animate-fade-up"
+                style={{ animationDelay: `${i * 120}ms` }}
+              >
+                <div className="absolute -top-6 -right-2 font-serif italic text-[color:var(--gold)]/15 text-[10rem] leading-none transition-all duration-700 group-hover:text-[color:var(--gold)]/30 group-hover:-rotate-6">
+                  {p.letter}
+                </div>
+                <div className="relative">
+                  <p className="font-serif text-[color:var(--gold)] text-6xl md:text-7xl leading-none">
+                    {p.letter}
+                  </p>
+                  <h3 className="mt-6 font-serif text-2xl md:text-3xl text-[color:var(--cream)]">
+                    {p.title}
+                  </h3>
+                  <span className="block w-8 h-px bg-gold mt-5 mb-5 transition-all duration-500 group-hover:w-16" />
+                  <p className="text-[color:var(--champagne)]/90 font-light leading-relaxed">
+                    {p.desc}
+                  </p>
+                </div>
+              </article>
+            ))}
+          </div>
+
+          <p className="mt-16 text-center font-serif italic text-[color:var(--gold-soft)] text-2xl md:text-3xl">
+            Nosso propósito é fazer você viver Paris.
+          </p>
+        </div>
+      </section>
+
       {/* SOBRE ELI */}
       <section id="sobre" className="px-6 py-[30px] bg-background mt-[30px]">
         <div className="max-w-6xl mx-auto grid md:grid-cols-[1fr_1.2fr] gap-16 md:gap-20 items-center">
