@@ -488,7 +488,7 @@ function Index() {
                   href={g.link}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="inline-block mt-4 px-5 py-2 text-sm font-medium tracking-wide uppercase border border-[color:var(--gold)] text-[color:var(--gold)] hover:bg-[color:var(--gold)] hover:text-[color:var(--navy)] transition-colors duration-300"
+                  className="inline-block mt-4 px-5 py-2 text-sm font-medium tracking-wide uppercase border border-[color:var(--gold)] rounded-full text-[color:var(--gold)] hover:bg-[color:var(--gold)] hover:text-[color:var(--navy)] transition-colors duration-300"
                 >
                   Saiba mais
                 </a>
