@@ -29,11 +29,11 @@ import guiaRoteiro from "@/assets/guia-roteiro.png.asset.json";
 import guiaHospedagem from "@/assets/guia-hospedagem.png.asset.json";
 
 const guias = [
-  { src: guiaOrganizar.url, title: "Como Organizar Minha Viagem a Paris", desc: "Burocracia e cuidados para uma viagem inesquecível e econômica." },
-  { src: guiaMetro.url, title: "Paris em Trilhos", desc: "Domine o transporte público em Paris com segurança." },
-  { src: guiaRoteiro.url, title: "Paris dos Sonhos", desc: "O método para criar o seu roteiro perfeito em Paris." },
-  { src: guiaArte.url, title: "Paris dos Pincéis", desc: "O essencial da arte e dos museus Louvre e Orsay, para iniciantes." },
-  { src: guiaHospedagem.url, title: "Hotéis Econômicos", desc: "Se hospede em Paris com segurança, boa localização e sem gastar uma fortuna." },
+  { src: guiaOrganizar.url, title: "Como Organizar Minha Viagem a Paris", desc: "Burocracia e cuidados para uma viagem inesquecível e econômica.", link: "https://www.viagemreal.com/como-organizar-paris" },
+  { src: guiaMetro.url, title: "Paris em Trilhos", desc: "Domine o transporte público em Paris com segurança.", link: "https://www.viagemreal.com/paris-em-trilhos" },
+  { src: guiaRoteiro.url, title: "Paris dos Sonhos", desc: "O método para criar o seu roteiro perfeito em Paris.", link: "https://www.viagemreal.com/paris-dos-sonhos" },
+  { src: guiaArte.url, title: "Paris dos Pincéis", desc: "O essencial da arte e dos museus Louvre e Orsay, para iniciantes.", link: "https://www.viagemreal.com/paris-dos-pinceis" },
+  { src: guiaHospedagem.url, title: "Hotéis Econômicos", desc: "Se hospede em Paris com segurança, boa localização e sem gastar uma fortuna.", link: "https://www.viagemreal.com/hoteis-em-paris" },
 ];
 
 const porQueSlides = [
@@ -484,6 +484,14 @@ function Index() {
                 <p className="text-xs md:text-sm text-muted-foreground font-light leading-relaxed">
                   {g.desc}
                 </p>
+                <a
+                  href={g.link}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-block mt-4 px-5 py-2 text-sm font-medium tracking-wide uppercase border border-[color:var(--gold)] text-[color:var(--gold)] hover:bg-[color:var(--gold)] hover:text-[color:var(--navy)] transition-colors duration-300"
+                >
+                  Saiba mais
+                </a>
               </article>
             ))}
           </div>
