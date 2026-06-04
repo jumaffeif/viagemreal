@@ -29,7 +29,7 @@ import guiaRoteiro from "@/assets/guia-roteiro.png.asset.json";
 import guiaHospedagem from "@/assets/guia-hospedagem.png.asset.json";
 
 const guias = [
-  { src: guiaOrganizar.url, title: "Como Organizar Minha Viagem a Paris", desc: "Burocracia e cuidados para uma viagem inesquecível e econômica.", link: "https://www.viagemreal.com/como-organizar-paris" },
+  { src: guiaOrganizar.url, title: "Paris Econômico", desc: "Burocracia e cuidados para uma viagem inesquecível e econômica.", link: "https://www.viagemreal.com/como-organizar-paris" },
   { src: guiaMetro.url, title: "Paris em Trilhos", desc: "Domine o transporte público em Paris com segurança.", link: "https://www.viagemreal.com/paris-em-trilhos" },
   { src: guiaRoteiro.url, title: "Paris dos Sonhos", desc: "O método para criar o seu roteiro perfeito em Paris.", link: "https://www.viagemreal.com/paris-dos-sonhos" },
   { src: guiaArte.url, title: "Paris dos Pincéis", desc: "O essencial da arte e dos museus Louvre e Orsay, para iniciantes.", link: "https://www.viagemreal.com/paris-dos-pinceis" },
