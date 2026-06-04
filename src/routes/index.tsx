@@ -474,7 +474,7 @@ function Index() {
                     src={g.src}
                     alt={`Capa do guia ${g.title}`}
                     loading="lazy"
-                    className="w-full h-full object-contain drop-shadow-[0_20px_30px_rgba(11,26,53,0.25)] transition-transform duration-700 ease-out group-hover:-translate-y-2 group-hover:scale-[1.03]"
+                    className="w-full h-full object-contain transition-transform duration-700 ease-out group-hover:-translate-y-2 group-hover:scale-[1.03]"
                   />
                 </div>
                 <h3 className="mt-5 font-serif text-base md:text-lg text-[color:var(--navy)] leading-snug">
