@@ -170,10 +170,10 @@ function Index() {
       </header>
 
       {/* HERO */}
-      <section className="relative min-h-[100svh] flex items-center justify-center">
+      <section className="relative min-h-[100svh] flex items-center justify-center bg-[color:var(--navy)]">
         <video
+          key={heroParisVideo.url}
           src={heroParisVideo.url}
-          poster={heroParis}
           autoPlay
           muted
           loop
