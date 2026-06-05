@@ -1,17 +1,20 @@
 import type { ReactNode } from "react";
 
-const WHATSAPP_URL =
-  "https://wa.me/?text=" +
-  encodeURIComponent("Olá, gostaria de planejar minha experiência em Paris com a Viagem Real.");
+const DEFAULT_MESSAGE = "Olá, vim do site e gostaria de conhecer mais seus serviços";
+
+const buildWhatsAppUrl = (message: string) =>
+  "https://wa.me/?text=" + encodeURIComponent(message);
 
 type Props = {
   children: ReactNode;
   variant?: "primary" | "outline" | "ghost";
   size?: "md" | "lg";
   href?: string;
+  message?: string;
 };
 
-export function CTAButton({ children, variant = "primary", size = "md", href = WHATSAPP_URL }: Props) {
+export function CTAButton({ children, variant = "primary", size = "md", href, message }: Props) {
+  const finalHref = href ?? buildWhatsAppUrl(message ?? DEFAULT_MESSAGE);
   const base =
     "inline-flex items-center justify-center gap-3 font-sans tracking-[0.18em] uppercase text-[0.72rem] font-medium transition-all duration-500 group";
   const sizes = {
@@ -27,7 +30,7 @@ export function CTAButton({ children, variant = "primary", size = "md", href = W
   };
   return (
     <a
-      href={href}
+      href={finalHref}
       target="_blank"
       rel="noopener noreferrer"
       className={`${base} ${sizes[size]} ${variants[variant]}`}
