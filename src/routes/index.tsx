@@ -431,7 +431,7 @@ function Index() {
                     <h3 className="font-serif text-2xl md:text-3xl text-[color:var(--cream)] leading-tight">
                       {c.title}
                     </h3>
-                    <div className="overflow-hidden max-h-0 group-hover:max-h-32 transition-all duration-700">
+                    <div className="overflow-hidden max-h-32 md:max-h-0 md:group-hover:max-h-32 transition-all duration-700">
                       <p className="text-[color:var(--champagne)] text-sm font-light mt-3 leading-relaxed">
                         {c.description}
                       </p>
