@@ -446,7 +446,7 @@ function Index() {
       </section>
 
       {/* GUIAS VIAGEM REAL */}
-      <section id="guias" className="px-6 py-24 md:py-32 bg-background relative overflow-hidden">
+      <section id="guias" className="px-6 py-[30px] bg-background relative overflow-hidden mt-[30px]">
         <div className="absolute top-1/3 -left-32 w-96 h-96 rounded-full bg-[color:var(--gold-soft)]/10 blur-3xl pointer-events-none" />
         <div className="max-w-7xl mx-auto relative">
           <SectionHeading
