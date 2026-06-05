@@ -396,7 +396,7 @@ function Index() {
                 <span className="gold-divider mt-6 mb-6 inline-block" />
                 <p className="text-[color:var(--navy)]/75 font-light leading-relaxed">{s.body}</p>
                 <div className="mt-8">
-                  <CTAButton variant="outline">Saiba mais</CTAButton>
+                  <CTAButton variant="outline" message={`Olá, vim do site e gostaria de conhecer mais do ${s.name}`}>Saiba mais</CTAButton>
                 </div>
               </article>
             ))}
