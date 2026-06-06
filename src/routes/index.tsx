@@ -614,7 +614,7 @@ function Index() {
             <a href="https://wa.me/" target="_blank" rel="noopener noreferrer" className="hover:text-[color:var(--gold)] transition-colors">
               WhatsApp
             </a>
-            <a href="mailto:contato@viagemreal.com" className="hover:text-[color:var(--gold)] transition-colors">
+            <a href="mailto:marques@viagemreal.com.br" className="hover:text-[color:var(--gold)] transition-colors">
               E-mail
             </a>
           </div>
